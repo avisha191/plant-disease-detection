@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plant Disease Detection</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <h1>🌿 Plant Disease Detection</h1>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="how-it-works.html">How it Works</a>
+        <a href="future.html">Future Scope</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>Upload Leaf Image</h2>
+
+        <input type="file" id="imageInput" accept="image/*">
+        <button onclick="predictDisease()">Predict Disease</button>
+
+        <img id="preview" style="display:none">
+
+        <div id="result" class="result" style="display:none"></div>
+
+        <footer>Image-based plant disease identification</footer>
+    </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

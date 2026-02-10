@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ML models (too large for GitHub)
+*.h5
+*.keras
+*.pt
+*.pth
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
